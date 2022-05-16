@@ -29,7 +29,7 @@ namespace YazLab11deneme
             InitializeComponent();
             cikisYapildi();
             Control.CheckForIllegalCrossThreadCalls = false;
-            GMapProviders.GoogleMap.ApiKey = @"AIzaSyDUCJ9n9dc_xBq3Bwbt3Sonk9oqt_na1uA";
+            GMapProviders.GoogleMap.ApiKey = @"***";
             map1.DragButton = MouseButtons.Left;
             map1.MapProvider = GMapProviders.GoogleMap;
             map1.Position = new PointLatLng(40.760, 29.923);
